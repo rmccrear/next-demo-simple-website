@@ -66,7 +66,7 @@ export default function HomePage() {
 
 #### **About Page** (`src/pages/about/index.js`)
 - This page demonstrates the use of **CSS Modules** to style the `cowField` where the Cowsay output is displayed.
-- The page also uses a button styled with Bootstrap and a custom `my-box` class that is part of Bootstrap.
+- The page also uses a button styled with Bootstrap and a custom `my-box` class defined in `src/styles/boxy.css` and imported globally in `src/pages/_app.js`.
 - The **cowsay** library is used to generate and display a fun cow-shaped text output.
   
 ```js
